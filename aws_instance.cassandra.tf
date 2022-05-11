@@ -47,7 +47,7 @@ HERE
     type        = "ssh"
     host        = self.public_ip
     user        = "ec2-user"
-    private_key = file("/home/conor/.ssh/keys/aws")
+    private_key = file("~/.ssh/keys/aws")
     timeout     = "4m"
   }
 }
